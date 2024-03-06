@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: mindbridgetutoring
+    env: docker
+    plan: free
