@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/clappingelaphant/MindBridgetutoring.git
+RUN git clone https://github.com/clappingelaphant/readingstrategiesv2.git
 
-WORKDIR /MindBridgetutoring
+WORKDIR /readingstrategiesv2
 
 RUN npm install
 
