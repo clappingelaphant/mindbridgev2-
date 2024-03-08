@@ -1,5 +1,5 @@
 services:
   - type: web
-    name: mindbridgetutoring
+    name: readingstrategies
     env: docker
     plan: free
